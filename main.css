@@ -1,0 +1,36 @@
+/* @media only screen and (max-width: 500px) {
+    display: none;
+} */
+/* @media only screen and (max-width: 320px) {
+    styles for narrow screens 
+} */
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.ytimg.com/vi/vbkjyR4edDY/hqdefault.jpg');
+}
+
+#title {
+    color: hotpink;
+    background-color: black;
+    font-size: 100px;
+    font-family: monospace;
+    margin-top: 20px;
+        flex: 0.5;
+
+}
+#tv {
+    background-image: url('http://cliparting.com/wp-content/uploads/2016/07/Tv-clip-art-clipart-image-5-2.gif');
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid greenyellow;
+}
+
